@@ -1,1 +1,1 @@
-fixedversions
+A composer plugin to fix the versions of your composer project.

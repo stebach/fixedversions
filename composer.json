@@ -2,6 +2,7 @@
     "name": "stebach/fixedversions",
     "description": "Fix the versions of your packages",
     "type": "composer-plugin",
+    "version":"1.0.0",
     "authors": [
         {
             "name": "Ste Baechler",
