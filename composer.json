@@ -11,11 +11,12 @@
     "extra": {
         "class": "SteBach\\FixedVersions\\Plugin"
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "require": {
         "composer-plugin-api": "^1.1"
     },
     "autoload": {
         "psr-4": {"SteBach\\": "src/SteBach/"}
-    }
+    },
+    "license": "GPL-3.0-or-later"
 }
