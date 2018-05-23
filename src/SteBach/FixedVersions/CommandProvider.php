@@ -63,7 +63,7 @@ class Command extends BaseCommand
                             $output->writeln("  - package \"<fg=yellow>" . $name . "</>\" was already set to version \"<fg=yellow>" . $version . "</>\"");
                         }
                     } else {
-                        $output->writeln("  - package \"<fg=orange>" . $name . "</>\" not found - version remains \"<fg=orange>" . $version . "</>\"");
+                        $output->writeln("  - package \"<fg=magenta>" . $name . "</>\" not found - version remains \"<fg=magenta>" . $version . "</>\"");
                     }
                 }
             }
