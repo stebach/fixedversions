@@ -1,0 +1,21 @@
+{
+    "name": "stebach/fixedversions",
+    "description": "Fix the versions of your packages",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Ste Baechler",
+            "email": "ste@ste.li"
+        }
+    ],
+    "extra": {
+        "class": "SteBach\\FixedVersions\\Plugin"
+    },
+    "minimum-stability": "beta",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {"SteBach\\": "src/SteBach/"}
+    }
+}
