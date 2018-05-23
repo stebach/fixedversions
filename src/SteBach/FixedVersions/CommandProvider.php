@@ -54,6 +54,7 @@ class Command extends BaseCommand
                 foreach ($this->rawData[$checkkey] as $name => $version) {
                     if ($name == 'stebach/fixedversions') {
                         $this->rawData[$checkkey][$name] = '^1.0';
+                        continue;
                     }
                     if (isset($this->localPackages[$name])) {
                         if ($version != $this->localPackages[$name]) {
